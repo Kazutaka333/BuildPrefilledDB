@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		D728E82A1FAED1E90077F2E5 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = D728E8291FAED1E90077F2E5 /* main.swift */; };
+		D7D8F5751FB18A99001FDD78 /* Quote.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D7D8F5731FB18A98001FDD78 /* Quote.xcdatamodeld */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,7 @@
 /* Begin PBXFileReference section */
 		D728E8261FAED1E90077F2E5 /* BuildPrefilledDB */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = BuildPrefilledDB; sourceTree = BUILT_PRODUCTS_DIR; };
 		D728E8291FAED1E90077F2E5 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		D7D8F5741FB18A99001FDD78 /* Quote.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Quote.xcdatamodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 			isa = PBXGroup;
 			children = (
 				D728E8291FAED1E90077F2E5 /* main.swift */,
+				D7D8F5731FB18A98001FDD78 /* Quote.xcdatamodeld */,
 			);
 			path = BuildPrefilledDB;
 			sourceTree = "<group>";
@@ -120,6 +123,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D7D8F5751FB18A99001FDD78 /* Quote.xcdatamodeld in Sources */,
 				D728E82A1FAED1E90077F2E5 /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -275,6 +279,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		D7D8F5731FB18A98001FDD78 /* Quote.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				D7D8F5741FB18A99001FDD78 /* Quote.xcdatamodel */,
+			);
+			currentVersion = D7D8F5741FB18A99001FDD78 /* Quote.xcdatamodel */;
+			path = Quote.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = D728E81E1FAED1E90077F2E5 /* Project object */;
 }
